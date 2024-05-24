@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/bgimg.jpg'); 
+    background-size: cover;
+    
+}
+
+header {
+    background-color: green;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Lucida Handwriting',cursive;
+}
+
+nav {
+    background-color: skyblue;
+    text-align: center;
+    padding: 10px;
+    
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a   {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline;
+    
+    
+}
+
+section {
+    padding: 20px;
+}
+
+#hero {
+    
+    color:darkmagenta;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Georgia',cursive;
+    font-size: 20px;
+    
+}
+#destinations {
+    
+    color: brown;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Lucida Handwriting',cursive;
+    
+    
+}
+#about {
+    
+    color: brown;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Lucida Handwriting',cursive;
+    
+}
+#contact {
+    
+    color: brown;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Lucida Handwriting',cursive;
+    
+    
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 500px;
+}

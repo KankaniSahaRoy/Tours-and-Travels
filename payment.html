@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Page</title>
+
+  <link rel="stylesheet" href="payment.css"/>
+</head>
+<body>
+
+  <div id="paymentContainer" class="pc">
+    <!-- Display QR code here -->
+    <img id="qrCode" alt="QR Code" src="" style="display: none;">
+  </div>
+
+  <script>
+    function generateQRCode() {
+      const fakeQRCodeURL = 'images/payment.jpg';
+      const qrCodeImg = document.getElementById('qrCode');
+      qrCodeImg.src = fakeQRCodeURL;
+      qrCodeImg.style.display = 'block';
+
+      setTimeout(() => {
+        window.location.href = 'thanks.html'; // Replace with your actual thanks page URL
+      }, 10000);
+    }
+
+    window.onload = generateQRCode;
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,364 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 03-Jan-2024, 12:50:34 pm
+    Author     : ASUS
+*/
+
+.tour{
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.title h2{
+    color: antiquewhite;
+    font-size: 70px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.cardgoa{
+    height: 270px;
+    width: 335px;
+    padding: 40px 35px;
+    border-radius: 20px;
+    background-image: url('images/goa.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid rgb(255, 58, 58);
+}
+.cardjk{
+    height: 260px;
+    width: 335px;
+    padding: 40px 35px;
+    border-radius: 20px;
+    background-color: transparent;
+    background-image: url('images/kashmir.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid rgb(255, 58, 58);
+}
+.cardamt{
+    height: 260px;
+    width: 335px;
+    padding: 40px 35px;
+    border-radius: 20px;
+    background-color: transparent;
+    background-image: url('images/amritsar.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid rgb(255, 58, 58);
+}
+.cardsikkim{
+    height: 260px;
+    width: 335px;
+    padding: 40px 35px;
+    border-radius: 20px;
+    background-color: transparent;
+    background-image: url('images/sikkim.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid rgb(255, 58, 58);
+}
+.cardraj{
+    height: 260px;
+    width: 335px;
+    padding: 40px 35px;
+    border-radius: 20px;
+    background-color: transparent;
+    background-image: url('images/rajasthan.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid rgb(255, 58, 58);
+}
+.cardlon{
+    height: 260px;
+    width: 335px;
+    padding: 40px 35px;
+    border-radius: 20px;
+    background-image: url('images/LONDON.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid rgb(255, 58, 58);
+}
+.cardegypt{
+    height: 260px;
+    width: 335px;
+    padding: 40px 35px;
+    border-radius: 20px;
+    background-image: url('images/egypt.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid rgb(255, 58, 58);
+}
+.cardmal{
+    height: 260px;
+    width: 335px;
+    padding: 40px 35px;
+    border-radius: 20px;
+    background-image: url('images/mal.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid rgb(255, 58, 58);
+}
+.cardnewyork{
+    height: 260px;
+    width: 335px;
+    padding: 40px 35px;
+    border-radius: 20px;
+    background-image: url('images/newyork.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid rgb(255, 58, 58);
+}
+.cardparis{
+    height: 260px;
+    width: 335px;
+    padding: 40px 35px;
+    border-radius: 20px;
+    background-image: url('images/paris.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid rgb(255, 58, 58);
+}
+
+h5{
+    color: beige;
+    font-size: 23px;
+    margin-bottom: 15px;
+
+}
+.pra p{
+    color: aliceblue;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.goab{
+    background-color: rgb(255, 58, 58);
+    color: white;
+    text-decoration: none;
+    border: 2px  solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 35px;
+    transition: .4s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.goab:hover{
+    background-color: transparent;
+    border: 2px solid rgb(255,58,58);
+}
+.sikkimb{
+    background-color: rgb(255, 58, 58);
+    color: white;
+    text-decoration: none;
+    border: 2px  solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 35px;
+    transition: .4s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.sikkimb:hover{
+    background-color: transparent;
+    border: 2px solid rgb(255,58,58);
+}
+.kashmirb{
+    background-color: rgb(255, 58, 58);
+    color: white;
+    text-decoration: none;
+    border: 2px  solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 35px;
+    transition: .4s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.kashmirb:hover{
+    background-color: transparent;
+    border: 2px solid rgb(255,58,58);
+}
+.rajb{
+    background-color: rgb(255, 58, 58);
+    color: white;
+    text-decoration: none;
+    border: 2px  solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 35px;
+    transition: .4s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.rajb:hover{
+    background-color: transparent;
+    border: 2px solid rgb(255,58,58);
+}
+.amrb{
+    background-color: rgb(255, 58, 58);
+    color: white;
+    text-decoration: none;
+    border: 2px  solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 35px;
+    transition: .4s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.amrb:hover{
+    background-color: transparent;
+    border: 2px solid rgb(255,58,58);
+}
+.lonb{
+    background-color: rgb(255, 58, 58);
+    color: white;
+    text-decoration: none;
+    border: 2px  solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 35px;
+    transition: .4s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.lonb:hover{
+    background-color: transparent;
+    border: 2px solid rgb(255,58,58);
+}
+.egyptb{
+    background-color: rgb(255, 58, 58);
+    color: white;
+    text-decoration: none;
+    border: 2px  solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 35px;
+    transition: .4s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.egyptb:hover{
+    background-color: transparent;
+    border: 2px solid rgb(255,58,58);
+}
+.malb{
+    background-color: rgb(255, 58, 58);
+    color: white;
+    text-decoration: none;
+    border: 2px  solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 35px;
+    transition: .4s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.malb:hover{
+    background-color: transparent;
+    border: 2px solid rgb(255,58,58);
+}
+.newb{
+    background-color: rgb(255, 58, 58);
+    color: white;
+    text-decoration: none;
+    border: 2px  solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 35px;
+    transition: .4s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.newb:hover{
+    background-color: transparent;
+    border: 2px solid rgb(255,58,58);
+}
+.parisb{
+    background-color: rgb(255, 58, 58);
+    color: white;
+    text-decoration: none;
+    border: 2px  solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 35px;
+    transition: .4s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.parisb:hover{
+    background-color: transparent;
+    border: 2px solid rgb(255,58,58);
+}
+
+
+
+
+
+
+
+
+
